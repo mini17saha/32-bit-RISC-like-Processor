@@ -30,7 +30,7 @@ Before running the project, ensure you have the following installed:
 - `memory.v`: Verilog module for the Data Memory.
 - `reg_mod.v`: Verilog module for the register file.
 - `top_level.v`: Top-level Verilog module integrating all components.
-- `mux.v`: Verilog module for 2 to 1 and 4 to 1 mux.
+- `mux.v`: Verilog module for 2 to 1 and 4 to 1 multiplexers.
 - `sign_extend.v`: Verilog module for 15 to 32 bits and 16 to 32 bits sign extension.
 - `CPU_FPGA.v`: Top-level Verilog module for simulation which takes 32 bits input.
 - `Processor_tb.v`: Testbench for simulating and verifying the processor.
