@@ -23,22 +23,20 @@ Before running the project, ensure you have the following installed:
 
 ## Project Structure
 
-- `src/`
-  - `ALU.v`: Verilog module for the Arithmetic Logic Unit.
-  - `main2.v`: Verilog module for the Control Unit.
-  - `branch_mechanism.v`: Verilog module for the data path.
-  - `memory.v`: Verilog module for the Data Memory.
-  - `reg_mod.v`: Verilog module for the register file.
-  - `top_level.v`: Top-level Verilog module integrating all components.
-  - `mux.v`: Verilog module for 2 to 1 and 4 to 1 mux.
-  - `sign_extend.v`: Verilog module for 15 to 32 bits and 16 to 32 bits sign extension.
-  - `CPU_FPGA.v`: Top-level Verilog module for simulation which takes 32 bits input.
-- `testbench/`
-  - `Processor_tb.v`: Testbench for simulating and verifying the processor.
-- `docs/`
-  - `booth.txt`: Encoding for multiplication using booth algortihm.
-  - `gcd.txt`: Encoding for gcd algorithm.
-  - `controlsignals_doc.ods`: Control unit signals.
+
+- `ALU.v`: Verilog module for the Arithmetic Logic Unit.
+- `main2.v`: Verilog module for the Control Unit.
+- `branch_mechanism.v`: Verilog module for the data path.
+- `memory.v`: Verilog module for the Data Memory.
+- `reg_mod.v`: Verilog module for the register file.
+- `top_level.v`: Top-level Verilog module integrating all components.
+- `mux.v`: Verilog module for 2 to 1 and 4 to 1 mux.
+- `sign_extend.v`: Verilog module for 15 to 32 bits and 16 to 32 bits sign extension.
+- `CPU_FPGA.v`: Top-level Verilog module for simulation which takes 32 bits input.
+- `Processor_tb.v`: Testbench for simulating and verifying the processor.
+- `booth.txt`: Encoding for multiplication using booth algortihm.
+- `gcd.txt`: Encoding for gcd algorithm.
+- `controlsignals_doc.ods`: Control unit signals.
 
 
 ## Usage
